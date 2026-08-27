@@ -3,110 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leticia Zanardi dos Santos</title>
+    <title>Letícia dos Santos</title>
 
-    <!-- Link para o arquivo CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Leticia Zanardi dos Santos</h1>
-        <p>Conheça um pouco mais sobre Leticia</p>
-    </header>
+        <nav>
+            <h2 class="logo">Letícia<span>.</span></h2>
 
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#qualidades">Qualidades</a>
-        <a href="#contato">Contato</a>
-    </nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#gostos">Meus gostos</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
 
-        <section id="sobre" class="card">
-            <h2>Sobre Leticia</h2>
+        <section class="hero" id="inicio">
+            <div class="hero-text">
+                <p class="pequeno">SEJA BEM-VINDO(A) AO MEU ESPAÇO</p>
 
-            <div class="conteudo">
+                <h1>Olá, eu sou<br><span>Letícia dos Santos</span></h1>
+
+                <p class="descricao">
+                    Um pouco sobre mim, minhas músicas favoritas
+                    e as coisas que gosto de fazer nas horas vagas.
+                </p>
+
+                <a href="#sobre" class="botao">Conheça mais</a>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="circulo"></div>
+                <div class="nome">LETÍCIA</div>
+            </div>
+        </section>
+
+
+        <section class="sobre" id="sobre">
+            <div class="titulo">
+                <p>QUEM SOU EU</p>
+                <h2>Sobre <span>mim</span></h2>
+            </div>
+
+            <div class="sobre-conteudo">
                 <div class="foto">
-                    <img src="https://via.placeholder.com/250" alt="Foto de Leticia">
+                    <div class="inicial">L</div>
                 </div>
 
                 <div class="texto">
+                    <h3>Prazer, Letícia!</h3>
+
                     <p>
-                        Leticia Zanardi dos Santos é uma pessoa especial,
-                        com sua própria personalidade, histórias e sonhos.
+                        Meu nome é <strong>Letícia dos Santos</strong>.
+                        Sou uma pessoa que gosta de aproveitar os pequenos
+                        momentos e curtir aquilo que me faz bem.
                     </p>
 
                     <p>
-                        Neste site podemos conhecer um pouco mais sobre
-                        sua trajetória, seus interesses e suas principais
-                        características.
+                        Nas horas vagas, gosto de escutar músicas,
+                        principalmente as do <strong>Veigh</strong>, e também
+                        adoro assistir filmes.
+                    </p>
+
+                    <p>
+                        Entre meus gêneros favoritos estão os filmes de
+                        <strong>ação</strong> e <strong>romance</strong>,
+                        porque gosto tanto de histórias emocionantes quanto
+                        de momentos cheios de adrenalina.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="hobbies" class="card">
-            <h2>Hobbies e interesses</h2>
+
+        <section class="gostos" id="gostos">
+            <div class="titulo centralizado">
+                <p>O QUE EU GOSTO</p>
+                <h2>Meus <span>favoritos</span></h2>
+            </div>
 
             <div class="cards">
-                <div class="item">
-                    <h3>🎵 Música</h3>
+
+                <div class="card">
+                    <div class="icone">♫</div>
+                    <h3>Música</h3>
                     <p>
-                        Gosta de ouvir músicas e conhecer novos artistas.
+                        Gosto de escutar Veigh e aproveitar minhas
+                        músicas favoritas no meu tempo livre.
                     </p>
+                    <span class="tag">VEIGH</span>
                 </div>
 
-                <div class="item">
-                    <h3>📚 Estudos</h3>
+                <div class="card">
+                    <div class="icone">🎬</div>
+                    <h3>Filmes de Ação</h3>
                     <p>
-                        Busca aprender coisas novas e melhorar seus
-                        conhecimentos.
+                        Filmes com adrenalina, aventuras, perseguições
+                        e histórias que prendem a atenção.
                     </p>
+                    <span class="tag">AÇÃO</span>
                 </div>
 
-                <div class="item">
-                    <h3>🎬 Filmes</h3>
+                <div class="card">
+                    <div class="icone">♡</div>
+                    <h3>Romance</h3>
                     <p>
-                        Aproveita seu tempo livre assistindo filmes e séries.
+                        Também gosto de histórias românticas, com
+                        personagens marcantes e momentos emocionantes.
                     </p>
+                    <span class="tag">ROMANCE</span>
                 </div>
+
             </div>
         </section>
 
-        <section id="qualidades" class="card">
-            <h2>Qualidades</h2>
 
-            <ul>
-                <li>⭐ Amigável</li>
-                <li>⭐ Determinada</li>
-                <li>⭐ Criativa</li>
-                <li>⭐ Divertida</li>
-                <li>⭐ Responsável</li>
-            </ul>
-        </section>
-
-        <section id="contato" class="card">
-            <h2>Mensagem</h2>
-
-            <p>
-                Este espaço pode ser usado para colocar uma mensagem
-                especial sobre Leticia.
-            </p>
-
-            <p class="mensagem">
-                "Nunca deixe de acreditar nos seus sonhos e objetivos!"
-            </p>
+        <section class="frase">
+            <div>
+                <span>“</span>
+                <p>
+                    A vida fica mais bonita quando fazemos aquilo
+                    que realmente gostamos.
+                </p>
+                <small>— Letícia dos Santos</small>
+            </div>
         </section>
 
     </main>
 
+
     <footer>
-        <p>Projeto desenvolvido em HTML e CSS</p>
-        <p>© 2026 - Leticia Zanardi dos Santos</p>
+        <h2>Letícia<span>.</span></h2>
+        <p>Meu espaço, meus gostos, minha personalidade.</p>
+        <p class="copyright">© 2026 Letícia dos Santos</p>
     </footer>
 
 </body>
 </html>
+
+                      
+
+
+       
